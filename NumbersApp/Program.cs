@@ -16,4 +16,3 @@ int GetMin(int[] array)
     }
     return x;
 }
-
