@@ -1,0 +1,10 @@
+@startuml
+title Sınıf Kavramına Giriş
+class Number
+{
+    -innerList:int[]
+    +Number()
+    +GetMin():int
+    +GetMax():int
+}
+@enduml

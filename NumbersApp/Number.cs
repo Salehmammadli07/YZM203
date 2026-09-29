@@ -2,9 +2,9 @@ class Number
 {
     // Referans tipli ifadeler başlatılmak zorundadır!
     private int[] _innerList;
-    public Number()
+    public Number() // ctor
     {
-        _innerList = new int[4];
+        _innerList = new int[] {61, 23, 44, 52, 38};
     }
 
     public int GetMin()
