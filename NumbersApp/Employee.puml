@@ -10,7 +10,9 @@ class Employee{
     +setLastName(value:String):void
 }
 
-class Program{
+class Program
+{
+    
 
 }
 
@@ -20,4 +22,5 @@ class Number
 }
 
 hide empty members
+
 @enduml
