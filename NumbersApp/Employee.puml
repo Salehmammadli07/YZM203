@@ -1,0 +1,23 @@
+@startuml
+title Employee
+class Employee{
+    -_firstName:String
+    -_lastName:String
+    --
+    +getFirstName():String
+    +setFirstName(value:String):void
+    +getLastName():String
+    +setLastName(value:String):void
+}
+
+class Program{
+
+}
+
+class Number
+{
+
+}
+
+hide empty members
+@enduml
